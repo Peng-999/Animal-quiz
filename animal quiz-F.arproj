@@ -1,0 +1,1464 @@
+{
+  "modelName": "document",
+  "name": "Effect",
+  "identifier": "document:5270-e106c72f-6275-4c97-99fe-80725a368be4",
+  "id": "639189b042523dffb542b1b47009d6b61f95ca",
+  "revision": "639194b042523dffb542b1b47009d6b61f95ca",
+  "version": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 181
+  },
+  "creatorIdentifier": "com.facebook.arstudio.skylight",
+  "creatorPlatform": "windows",
+  "creatorFileVersion": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 181
+  },
+  "cameraFar": 50,
+  "cameraNear": 0.009999999776482582,
+  "measurementUnit": "meter",
+  "objects": [
+    {
+      "modelName": "assets_config_model",
+      "identifier": "assets_config_model:5461-e106c72f-6275-4c97-99fe-80725a368be4",
+      "categoriesOrder": [
+        "blocks",
+        "animation_sequences",
+        "textures"
+      ]
+    }
+  ],
+  "previousDocumentIds": [
+    "5268e106c72f62754c9799fe80725a368be4"
+  ],
+  "projectFormatType": "separated_files",
+  "usingPatchesV2": true,
+  "visual_programming": {
+    "sectionFileLocation": "animal quiz-F.patches"
+  },
+  "children": [
+    {
+      "modelName": "textures",
+      "identifier": "textures:5276-e106c72f-6275-4c97-99fe-80725a368be4",
+      "children": [
+        {
+          "modelName": "sequenceTexture",
+          "name": "questions",
+          "identifier": "sequenceTexture:302940-e106c72f-6275-4c97-99fe-80725a368be4",
+          "isSourceTextureIdentifierEnabled": true,
+          "sourceTextureIdentifier": "textureGroup:303090-e106c72f-6275-4c97-99fe-80725a368be4"
+        },
+        {
+          "modelName": "textureGroup",
+          "name": "Q[1-10]",
+          "identifier": "textureGroup:303090-e106c72f-6275-4c97-99fe-80725a368be4",
+          "sequenceFramesTextureIdentifiers": [
+            "texture:303052-e106c72f-6275-4c97-99fe-80725a368be4",
+            "texture:303088-e106c72f-6275-4c97-99fe-80725a368be4",
+            "texture:303056-e106c72f-6275-4c97-99fe-80725a368be4",
+            "texture:303060-e106c72f-6275-4c97-99fe-80725a368be4",
+            "texture:303064-e106c72f-6275-4c97-99fe-80725a368be4",
+            "texture:303068-e106c72f-6275-4c97-99fe-80725a368be4",
+            "texture:303072-e106c72f-6275-4c97-99fe-80725a368be4",
+            "texture:303076-e106c72f-6275-4c97-99fe-80725a368be4",
+            "texture:303080-e106c72f-6275-4c97-99fe-80725a368be4",
+            "texture:303084-e106c72f-6275-4c97-99fe-80725a368be4"
+          ],
+          "children": [
+            {
+              "sectionFileLocation": "textures/Q1.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Q10.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Q2.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Q3.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Q4.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Q5.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Q6.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Q7.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Q8.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Q9.texture"
+            }
+          ]
+        },
+        {
+          "modelName": "sequenceTexture",
+          "name": "scores",
+          "identifier": "sequenceTexture:307296-e106c72f-6275-4c97-99fe-80725a368be4",
+          "isSourceTextureIdentifierEnabled": true,
+          "sourceTextureIdentifier": "textureGroup:307762-e106c72f-6275-4c97-99fe-80725a368be4"
+        },
+        {
+          "modelName": "textureGroup",
+          "name": "S[1-11]",
+          "identifier": "textureGroup:307762-e106c72f-6275-4c97-99fe-80725a368be4",
+          "sequenceFramesTextureIdentifiers": [
+            "texture:307720-e106c72f-6275-4c97-99fe-80725a368be4",
+            "texture:307724-e106c72f-6275-4c97-99fe-80725a368be4",
+            "texture:307728-e106c72f-6275-4c97-99fe-80725a368be4",
+            "texture:307732-e106c72f-6275-4c97-99fe-80725a368be4",
+            "texture:307736-e106c72f-6275-4c97-99fe-80725a368be4",
+            "texture:307740-e106c72f-6275-4c97-99fe-80725a368be4",
+            "texture:307744-e106c72f-6275-4c97-99fe-80725a368be4",
+            "texture:307748-e106c72f-6275-4c97-99fe-80725a368be4",
+            "texture:307752-e106c72f-6275-4c97-99fe-80725a368be4",
+            "texture:307756-e106c72f-6275-4c97-99fe-80725a368be4",
+            "texture:307760-e106c72f-6275-4c97-99fe-80725a368be4"
+          ],
+          "children": [
+            {
+              "sectionFileLocation": "textures/S00.texture"
+            },
+            {
+              "sectionFileLocation": "textures/S01.texture"
+            },
+            {
+              "sectionFileLocation": "textures/S02.texture"
+            },
+            {
+              "sectionFileLocation": "textures/S03.texture"
+            },
+            {
+              "sectionFileLocation": "textures/S04.texture"
+            },
+            {
+              "sectionFileLocation": "textures/S05.texture"
+            },
+            {
+              "sectionFileLocation": "textures/S06.texture"
+            },
+            {
+              "sectionFileLocation": "textures/S07.texture"
+            },
+            {
+              "sectionFileLocation": "textures/S08.texture"
+            },
+            {
+              "sectionFileLocation": "textures/S09.texture"
+            },
+            {
+              "sectionFileLocation": "textures/S10.texture"
+            }
+          ]
+        },
+        {
+          "sectionFileLocation": "textures/right.texture"
+        },
+        {
+          "sectionFileLocation": "textures/wrong.texture"
+        },
+        {
+          "sectionFileLocation": "textures/START-2.texture"
+        },
+        {
+          "sectionFileLocation": "textures/scoreboard-2.texture"
+        },
+        {
+          "modelName": "sequenceTexture",
+          "name": "L answers",
+          "identifier": "sequenceTexture:614250-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "isSourceTextureIdentifierEnabled": true,
+          "sourceTextureIdentifier": "textureGroup:614662-b042523d-ffb5-42b1-b470-09d6b61f95ca"
+        },
+        {
+          "modelName": "textureGroup",
+          "name": "L-A[1-10]",
+          "identifier": "textureGroup:614662-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "sequenceFramesTextureIdentifiers": [
+            "texture:614624-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+            "texture:614660-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+            "texture:614628-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+            "texture:614632-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+            "texture:614636-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+            "texture:614640-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+            "texture:614644-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+            "texture:614648-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+            "texture:614652-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+            "texture:614656-b042523d-ffb5-42b1-b470-09d6b61f95ca"
+          ],
+          "children": [
+            {
+              "sectionFileLocation": "textures/L-A1-3.texture"
+            },
+            {
+              "sectionFileLocation": "textures/L-A10-3.texture"
+            },
+            {
+              "sectionFileLocation": "textures/L-A2-3.texture"
+            },
+            {
+              "sectionFileLocation": "textures/L-A3-3.texture"
+            },
+            {
+              "sectionFileLocation": "textures/L-A4-3.texture"
+            },
+            {
+              "sectionFileLocation": "textures/L-A5-3.texture"
+            },
+            {
+              "sectionFileLocation": "textures/L-A6-3.texture"
+            },
+            {
+              "sectionFileLocation": "textures/L-A7-3.texture"
+            },
+            {
+              "sectionFileLocation": "textures/L-A8-3.texture"
+            },
+            {
+              "sectionFileLocation": "textures/L-A9-3.texture"
+            }
+          ]
+        },
+        {
+          "modelName": "sequenceTexture",
+          "name": "R answers",
+          "identifier": "sequenceTexture:616492-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "isSourceTextureIdentifierEnabled": true,
+          "sourceTextureIdentifier": "textureGroup:617008-b042523d-ffb5-42b1-b470-09d6b61f95ca"
+        },
+        {
+          "modelName": "textureGroup",
+          "name": "R-A[1-10]",
+          "identifier": "textureGroup:617008-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "sequenceFramesTextureIdentifiers": [
+            "texture:616970-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+            "texture:617006-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+            "texture:616974-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+            "texture:616978-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+            "texture:616982-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+            "texture:616986-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+            "texture:616990-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+            "texture:616994-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+            "texture:616998-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+            "texture:617002-b042523d-ffb5-42b1-b470-09d6b61f95ca"
+          ],
+          "children": [
+            {
+              "sectionFileLocation": "textures/R-A1-2.texture"
+            },
+            {
+              "sectionFileLocation": "textures/R-A10-2.texture"
+            },
+            {
+              "sectionFileLocation": "textures/R-A2-2.texture"
+            },
+            {
+              "sectionFileLocation": "textures/R-A3-2.texture"
+            },
+            {
+              "sectionFileLocation": "textures/R-A4-2.texture"
+            },
+            {
+              "sectionFileLocation": "textures/R-A5-2.texture"
+            },
+            {
+              "sectionFileLocation": "textures/R-A6-2.texture"
+            },
+            {
+              "sectionFileLocation": "textures/R-A7-2.texture"
+            },
+            {
+              "sectionFileLocation": "textures/R-A8-2.texture"
+            },
+            {
+              "sectionFileLocation": "textures/R-A9-2.texture"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionFileLocation": "animal quiz-F.scene"
+    },
+    {
+      "modelName": "layers",
+      "identifier": "layers:5286-e106c72f-6275-4c97-99fe-80725a368be4",
+      "children": [
+        {
+          "modelName": "layer",
+          "name": "layer0",
+          "identifier": "layer:5348-e106c72f-6275-4c97-99fe-80725a368be4",
+          "color": "0xff8c72ca"
+        }
+      ]
+    },
+    {
+      "modelName": "scripts_model",
+      "identifier": "scripts_model:5302-e106c72f-6275-4c97-99fe-80725a368be4",
+      "children": [
+        {
+          "modelName": "script_bridging_variables_model",
+          "identifier": "script_bridging_variables_model:5304-e106c72f-6275-4c97-99fe-80725a368be4"
+        }
+      ]
+    },
+    {
+      "modelName": "bundled_packages_model",
+      "identifier": "bundled_packages_model:5310-e106c72f-6275-4c97-99fe-80725a368be4"
+    },
+    {
+      "modelName": "exportConfig",
+      "identifier": "exportConfig:5314-e106c72f-6275-4c97-99fe-80725a368be4",
+      "children": [
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:303242-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:303244-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:303246-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:303248-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:303250-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:303252-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:303254-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:303256-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:303258-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:303260-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:303432-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:303434-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:303436-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:303438-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:303440-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:303442-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:303444-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:303446-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:303448-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:303450-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:303642-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:303644-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:303646-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:303648-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:303650-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:303652-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:303654-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:303656-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:303658-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:303660-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:308230-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:308232-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:308234-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:308236-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:308238-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:308240-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:308242-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:308244-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:308246-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:308248-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:308250-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:308740-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:308742-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:308744-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:308746-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:308748-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:308750-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:308752-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:308754-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:308756-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:308758-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:308760-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:309272-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:309274-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:309276-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:309278-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:309280-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:309282-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:309284-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:309286-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:309288-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:309290-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:309292-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:310390-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:310396-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:310954-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:310960-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:311526-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:311532-e106c72f-6275-4c97-99fe-80725a368be4",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:602226-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:602796-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:603368-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:615076-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:615078-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:615080-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:615082-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:615084-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:615086-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:615088-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:615090-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:615092-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:615094-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:615528-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:615530-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:615532-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:615534-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:615536-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:615538-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:615540-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:615542-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:615544-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:615546-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:616000-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:616002-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:616004-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:616006-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:616008-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:616010-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:616012-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:616014-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:616016-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:616018-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:617526-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:617528-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:617530-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:617532-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:617534-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:617536-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:617538-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:617540-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:617542-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:617544-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:618082-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:618084-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:618086-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:618088-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:618090-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:618092-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:618094-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:618096-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:618098-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:618100-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:618658-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:618660-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:618662-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:618664-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:618666-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:618668-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:618670-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:618672-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:618674-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:618676-b042523d-ffb5-42b1-b470-09d6b61f95ca",
+          "method": "fastest"
+        }
+      ]
+    },
+    {
+      "modelName": "manifest",
+      "identifier": "manifest:5316-e106c72f-6275-4c97-99fe-80725a368be4",
+      "additionalEnabledChanges": null,
+      "assistantAppIDs": [
+        "2320137961422959"
+      ],
+      "assistantClientToken": null,
+      "assistantIncludeInDevelopmentArtifacts": false,
+      "assistantQuickTestEnabled": true,
+      "assistantStorageEnabled": true,
+      "assistantUseWit": false,
+      "audioEnableAudioGraphComponents": false,
+      "audioEnableAudioTransformationsApi": false,
+      "bodyTrackingMinVersion": 101,
+      "cameraControlDefaultCameraFacing": "unspecified",
+      "dynamicTextAltitude": false,
+      "dynamicTextDate": false,
+      "dynamicTextLocation": false,
+      "dynamicTextTranslation": false,
+      "dynamicTextWeather": false,
+      "effectDisablesAudioPreview": false,
+      "effectDisablesMicrophone": false,
+      "effectForceAsyncScripting": false,
+      "effectForcesSynchronousScripting": false,
+      "effectHasAmbientAudio": false,
+      "effectHasAudioGraphApi": false,
+      "effectHasTriggeredAudio": false,
+      "effectImageAntiAliasingEdgeSharpness": 0.5,
+      "effectImageAntiAliasingEdgeThreshold": 0.5,
+      "effectImageAntiAliasingTechnique": "fxaa",
+      "effectPbrClearcoatMaterialExtension": false,
+      "effectPbrIorMaterialExtension": false,
+      "effectPbrSheenMaterialExtension": false,
+      "effectPbrSpecularMaterialExtension": false,
+      "effectPbrTransmissionMaterialExtension": false,
+      "effectRecordingFromMic": false,
+      "effectUses3DModelAssets": false,
+      "effectUses4KTextures": false,
+      "effectUsesAheadOfTimeShaders": false,
+      "effectUsesAnimationPlaybackController": false,
+      "effectUsesAnimationScriptingModule": false,
+      "effectUsesAppLauncher": false,
+      "effectUsesAssistant": false,
+      "effectUsesAudio": false,
+      "effectUsesAudioLegacyMicFork": false,
+      "effectUsesAudioMixer": false,
+      "effectUsesAudioSpatialEmitter": false,
+      "effectUsesAudioTimestamps": false,
+      "effectUsesAugmentAdjacency": false,
+      "effectUsesAugmentControl": false,
+      "effectUsesAugmentGrouping": false,
+      "effectUsesAugmentSharableConfig": false,
+      "effectUsesAugmentSizeControl": false,
+      "effectUsesAutomaticAlphaSort": false,
+      "effectUsesAutomaticInstructions": false,
+      "effectUsesBlockModulesConfigExtras": false,
+      "effectUsesBlocks": true,
+      "effectUsesBlocksDownloadable": false,
+      "effectUsesBlocksScripting": false,
+      "effectUsesBodyTracking": false,
+      "effectUsesBodyTracking2DKeyPoints": false,
+      "effectUsesBoundingBoxScripting": false,
+      "effectUsesBoundingBoxUtilities": false,
+      "effectUsesCameraControl": false,
+      "effectUsesCameraInfoScriptingModule": false,
+      "effectUsesCameraShare": false,
+      "effectUsesComponentEvaluation": true,
+      "effectUsesComposedLocally": false,
+      "effectUsesComposedMaterial": false,
+      "effectUsesControllers": false,
+      "effectUsesCustomEngineSDK": false,
+      "effectUsesCustomFonts": false,
+      "effectUsesCustomMaterial": false,
+      "effectUsesCustomMaterialAndShaderCodeAsset": false,
+      "effectUsesCustomPipeline": false,
+      "effectUsesDSP": false,
+      "effectUsesDate": false,
+      "effectUsesDebugPatch": false,
+      "effectUsesDeltaTime": false,
+      "effectUsesDepth": false,
+      "effectUsesDepthData": false,
+      "effectUsesDepthShaderRead": false,
+      "effectUsesDeviceMotion": false,
+      "effectUsesDiagnosticsScriptingModule": false,
+      "effectUsesDirectionalLightEstimation": false,
+      "effectUsesDspAudioAnalyzer": false,
+      "effectUsesDspBitCrusher": false,
+      "effectUsesDspCompressor": false,
+      "effectUsesDspDelay": false,
+      "effectUsesDspDenoiser": false,
+      "effectUsesDspDistortion": false,
+      "effectUsesDspEnergyMeter": false,
+      "effectUsesDspModulator": false,
+      "effectUsesDspParametricEqualizer": false,
+      "effectUsesDspPitchShifter": false,
+      "effectUsesDspReverb": false,
+      "effectUsesDspVocoder": false,
+      "effectUsesDynamicCapabilities": false,
+      "effectUsesDynamicInstructions": true,
+      "effectUsesDynamicScriptProperties": false,
+      "effectUsesDynamicText": false,
+      "effectUsesEmbeddedVideo": false,
+      "effectUsesEnvironmentTexturePatch": false,
+      "effectUsesExperienceControl": false,
+      "effectUsesExternalBlocks": false,
+      "effectUsesExternalFonts": false,
+      "effectUsesExternalMusicSelection": false,
+      "effectUsesExternalTextures": false,
+      "effectUsesExternalTexturesAudio": false,
+      "effectUsesExternalVideo": false,
+      "effectUsesExternalVideoStream": false,
+      "effectUsesFBA": false,
+      "effectUsesFaceDistortion": false,
+      "effectUsesFaceExpression52Blendshapes": false,
+      "effectUsesFaceExpressionExperimental": false,
+      "effectUsesFaceExpressionFitting": false,
+      "effectUsesFaceExtraction": false,
+      "effectUsesFaceTracker": true,
+      "effectUsesFaceTracker3D": true,
+      "effectUsesFaceTracker96": false,
+      "effectUsesFaceTrackingScripting2D": false,
+      "effectUsesFaceTrueScale": false,
+      "effectUsesFaceWave": false,
+      "effectUsesFacialExpressionRecognition": false,
+      "effectUsesFacialGestureRecognition": true,
+      "effectUsesFieldOfView": false,
+      "effectUsesFingerTracking": false,
+      "effectUsesFonts": false,
+      "effectUsesFormFactor": false,
+      "effectUsesFrameBrightness": false,
+      "effectUsesGalleryPicker": false,
+      "effectUsesGenericML": false,
+      "effectUsesGlobalTransform": false,
+      "effectUsesGlslEs300Features": false,
+      "effectUsesGltfPbrShader": false,
+      "effectUsesGraphQL": false,
+      "effectUsesHairSegmentation": false,
+      "effectUsesHalfFloatRenderPass": false,
+      "effectUsesHandGestureKeypoints": false,
+      "effectUsesHandTracker": false,
+      "effectUsesHapticFeedback": false,
+      "effectUsesHeadsetInfo": false,
+      "effectUsesHmdNetworkingAPI": false,
+      "effectUsesI18n": false,
+      "effectUsesIdTracker": false,
+      "effectUsesImageAntiAliasing": false,
+      "effectUsesImageAssets": false,
+      "effectUsesImageBasedLighting": false,
+      "effectUsesInstruction": true,
+      "effectUsesIntent": false,
+      "effectUsesInterEffectLinking": false,
+      "effectUsesInternalScriptingAPI": false,
+      "effectUsesIrisTracking": false,
+      "effectUsesJavaScript": false,
+      "effectUsesJavaScriptRuntimeForPatches": false,
+      "effectUsesJavaScriptScripting": false,
+      "effectUsesJavaScriptShaders": false,
+      "effectUsesJavascriptToPatchesBridging": false,
+      "effectUsesLayers": false,
+      "effectUsesLocale": false,
+      "effectUsesLocation": false,
+      "effectUsesLocationAirportData": false,
+      "effectUsesMaterialsScriptingModule": false,
+      "effectUsesMaxParticipants": false,
+      "effectUsesMicrophone": false,
+      "effectUsesMicrophoneV2": false,
+      "effectUsesMovingTargetTracking": false,
+      "effectUsesMultipeer": false,
+      "effectUsesMultipeerMessaging": false,
+      "effectUsesMultiplane": false,
+      "effectUsesMultiplayer": false,
+      "effectUsesMultipleRenderTargets": false,
+      "effectUsesMusic": false,
+      "effectUsesNativeUIControl": false,
+      "effectUsesNativeUIControlEditableText": false,
+      "effectUsesNativeUIControlEditableTextExitCB": false,
+      "effectUsesNativeUIControlPicker": false,
+      "effectUsesNativeUIControlPickerRemoteImages": false,
+      "effectUsesNativeUIControlRawTextInput": false,
+      "effectUsesNativeUIControlSlider": false,
+      "effectUsesNativeUIControlSliderTypeColor": false,
+      "effectUsesNetworking": false,
+      "effectUsesNetworkingScriptAPI": false,
+      "effectUsesObjectCapture": false,
+      "effectUsesObjectTracking": false,
+      "effectUsesOpticalFlow": false,
+      "effectUsesOpusCodec": false,
+      "effectUsesOverlayOutput": false,
+      "effectUsesPBRMaterial": false,
+      "effectUsesParticipant": false,
+      "effectUsesParticleSystem": false,
+      "effectUsesPeerOutput": false,
+      "effectUsesPeerVideoStream": false,
+      "effectUsesPermissions": false,
+      "effectUsesPersistence": false,
+      "effectUsesPersistenceCaptureScope": false,
+      "effectUsesPersistenceSharedScope": false,
+      "effectUsesPersonalization": false,
+      "effectUsesPhysics": false,
+      "effectUsesPhysicsSync": false,
+      "effectUsesPlaneNormal": false,
+      "effectUsesPlaneTrackerTrackTextureAPI": false,
+      "effectUsesPlatformEvents": false,
+      "effectUsesPlatformEventsDocumentScoped": false,
+      "effectUsesPlatformFunctions": false,
+      "effectUsesPlatformTextures": false,
+      "effectUsesPlaybackInfo": false,
+      "effectUsesPortalPose": false,
+      "effectUsesPreciseLocation": false,
+      "effectUsesPrefabScriptingModule": false,
+      "effectUsesPreviewCaptureOutputs": false,
+      "effectUsesQPL": false,
+      "effectUsesRGBCameraTexture": false,
+      "effectUsesRTRMapping": false,
+      "effectUsesRandomScriptingModule": false,
+      "effectUsesReactiveScriptingModule": false,
+      "effectUsesRealScaleEstimation": false,
+      "effectUsesRealScaleEstimationWithFallback": false,
+      "effectUsesRecognition": false,
+      "effectUsesRecognitionTracking": false,
+      "effectUsesRecordedSignalsForSamplers": false,
+      "effectUsesRemote3DModels": false,
+      "effectUsesRemoteMaps": false,
+      "effectUsesRenderPasses": false,
+      "effectUsesRenderSettingsHigh": false,
+      "effectUsesRingTryOn": false,
+      "effectUsesRotateVector": false,
+      "effectUsesSceneDepth": false,
+      "effectUsesSceneDepthWithFallback": false,
+      "effectUsesSceneObjectTags": false,
+      "effectUsesSceneRenderPassResolutionAspectRatio": false,
+      "effectUsesSceneScriptingModule": false,
+      "effectUsesScriptAnalytics": false,
+      "effectUsesScriptingDynamicInstantiation": false,
+      "effectUsesSegmentation": false,
+      "effectUsesSegmentationType": false,
+      "effectUsesShaderCode": false,
+      "effectUsesShaderPicking": false,
+      "effectUsesShadows": false,
+      "effectUsesSkinSegmentation": false,
+      "effectUsesSkinSmoothing": false,
+      "effectUsesSpaceSetup": false,
+      "effectUsesSpatialGesture": false,
+      "effectUsesSpatialHandTracking": false,
+      "effectUsesSplitScreen": false,
+      "effectUsesStaticTargetTracking": false,
+      "effectUsesStyleTransfer": false,
+      "effectUsesSupportedOrientations": false,
+      "effectUsesSvg": false,
+      "effectUsesSyncDomApis": false,
+      "effectUsesTargetRecognition": false,
+      "effectUsesTextAssets": false,
+      "effectUsesTextCaptions": false,
+      "effectUsesTextExtrusion": false,
+      "effectUsesTexturesScriptingModule": false,
+      "effectUsesTimeScriptingModule": false,
+      "effectUsesToasterTracking": false,
+      "effectUsesTouchGestures": true,
+      "effectUsesTwoDimensionalText": false,
+      "effectUsesTypeScript": false,
+      "effectUsesUiCore": false,
+      "effectUsesUiPlanarBackend": false,
+      "effectUsesUnifiedTargetTracking": false,
+      "effectUsesUnitsScriptingModule": false,
+      "effectUsesVariadicMath": true,
+      "effectUsesVertexTextureFetch": false,
+      "effectUsesVisualShaders": true,
+      "effectUsesVisualShadersSdf": false,
+      "effectUsesVoiceInteraction": false,
+      "effectUsesWarpPostProcessor": false,
+      "effectUsesWarpPreProcessor": false,
+      "effectUsesWarpSmoothing": true,
+      "effectUsesWeather": false,
+      "effectUsesWebPTexture": false,
+      "effectUsesWebsockets": false,
+      "effectUsesWorldTracker": false,
+      "effectUsesWorldTrackerEnvironmentLight": false,
+      "effectUsesWorldTrackerJSAPI": false,
+      "effectUsesWorldTrackingWorldMap": false,
+      "effectUsesWorldUnderstanding": false,
+      "effectUsesWorldUnderstandingV2": false,
+      "effectUsesWriteableSignalSource": false,
+      "engineSDKVersion": "181.0",
+      "externalTexturesWhitelistedDomains": null,
+      "faceExpressionFittingMinVersion": 15,
+      "faceExpressionFittingRTRRetargetingMinVersion": 1,
+      "faceTrackerIsEnabled": false,
+      "faceTrackerMaxFaces": 1,
+      "faceTrackerMinVersion": 13,
+      "facewaveMinVersion": 1,
+      "hairSegmentationMinVersion": 1,
+      "handTrackerMaxHands": 2,
+      "handTrackerMinVersion": 3,
+      "instructionFindAnImageBackCameraEnabled": true,
+      "instructionFindAnImageFrontCameraEnabled": true,
+      "instructionFindBodyBackCameraEnabled": true,
+      "instructionFindBodyFrontCameraEnabled": true,
+      "instructionFindFaceBackCameraEnabled": true,
+      "instructionFindFaceFrontCameraEnabled": true,
+      "instructionFindHandBackCameraEnabled": true,
+      "instructionFindHandFrontCameraEnabled": true,
+      "instructionFindPersonBackCameraEnabled": true,
+      "instructionFindPersonFrontCameraEnabled": true,
+      "instructionTokens": [
+        "tap_to_play"
+      ],
+      "interEffectLinkingEffectIds": null,
+      "internalScriptingAPIDelay": false,
+      "internalScriptingAPIDeprecatedParticles": false,
+      "internalScriptingAPIEventStream": false,
+      "internalScriptingAPIExperimentalCameraInfo": false,
+      "internalScriptingAPIGlobalTransform": false,
+      "manuallyEnabledItemsIds": null,
+      "maxParticipantsCount": 0,
+      "multiclassSegmentationMinVersion": 3004,
+      "objectTrackerMaxObjects": 1,
+      "optionalCapabilityItemIds": [],
+      "persistenceWhitelistedKeys": null,
+      "personalizationSpecialOccasion": "none",
+      "platformUsage": {},
+      "recognitionMinVersion": 2,
+      "ringTryOnMinVersion": 1,
+      "sceneDepthMinVersion": 1,
+      "sceneDepthWithFallbackMinVersion": 1,
+      "segmentationMinVersion": 2,
+      "shaderPostProcessor": false,
+      "shaderPreProcessor": false,
+      "supportsLandscape": false,
+      "supportsPortrait": true,
+      "supportsWildcardDomainsWhitelisting": false,
+      "targetRecognitionMinVersion": 2,
+      "touchGesturesSupportsLongPress": false,
+      "touchGesturesSupportsPan": false,
+      "touchGesturesSupportsPinch": false,
+      "touchGesturesSupportsRawTouch": false,
+      "touchGesturesSupportsRotate": false,
+      "touchGesturesSupportsTap": true,
+      "whitelistedDomains": null,
+      "witAppId": null,
+      "witClientToken": null,
+      "worldTrackerBackCameraEnabled": true,
+      "worldTrackerFrontCameraEnabled": true,
+      "worldTrackerMode": "plane",
+      "worldTrackerUsesFaceTracker": false
+    },
+    {
+      "modelName": "block_documents_model",
+      "identifier": "block_documents_model:5324-e106c72f-6275-4c97-99fe-80725a368be4",
+      "children": [
+        {
+          "modelName": "block_model",
+          "name": "animal quiz",
+          "identifier": "block_model:302826-e106c72f-6275-4c97-99fe-80725a368be4",
+          "assetDataHash": "5d6445350fd18776c64939c12aacc8ef",
+          "assetLocator": "blocks/animal quiz/animal quiz.arblock",
+          "excludeDuringExport": true,
+          "instances": [
+            "block_scene_model:302936-e106c72f-6275-4c97-99fe-80725a368be4"
+          ],
+          "isExternalAsset": true
+        }
+      ]
+    },
+    {
+      "modelName": "target",
+      "identifier": "target:5326-e106c72f-6275-4c97-99fe-80725a368be4",
+      "targetPlatforms": [
+        "instagram",
+        "facebook"
+      ],
+      "targetUseCases": [
+        "STORIES"
+      ]
+    },
+    {
+      "modelName": "scripting_config_model",
+      "identifier": "scripting_config_model:5334-e106c72f-6275-4c97-99fe-80725a368be4",
+      "forceStrictModeCompilation": true
+    },
+    {
+      "modelName": "graphicsConfig",
+      "identifier": "graphicsConfig:5354-e106c72f-6275-4c97-99fe-80725a368be4"
+    },
+    {
+      "modelName": "videos_model",
+      "identifier": "videos_model:5451-e106c72f-6275-4c97-99fe-80725a368be4"
+    },
+    {
+      "modelName": "input_mappings_model",
+      "identifier": "input_mappings_model:5455-e106c72f-6275-4c97-99fe-80725a368be4"
+    }
+  ]
+}
